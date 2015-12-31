@@ -1,0 +1,32 @@
+{
+  "name": "react-native-pull-to-refresh",
+  "version": "0.0.1",
+  "description": "The Pull-To-Refresh ScrollView component for React Native",
+  "main": "lib/index.js",
+  "files": [
+    "README.md",
+    "lib",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moschan/react-native-pull-to-refresh.git"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "pull-to-refresh",
+    "scroll-view"
+  ],
+  "author": "moschan <kaityo02＠gmail.com> (http://moschan.com/blog)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moschan/react-native-pull-to-refresh/issues"
+  },
+  "homepage": "https://github.com/moschan/react-native-pull-to-refresh#readme"
+}
