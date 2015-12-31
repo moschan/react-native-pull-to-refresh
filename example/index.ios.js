@@ -4,7 +4,7 @@
  */
 'use strict';
 
-var PTRView = require('./lib/index')
+var PTRView = require('react-native-pull-to-refresh')
 
 var React = require('react-native');
 var {

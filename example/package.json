@@ -7,5 +7,8 @@
   },
   "dependencies": {
     "react-native": "^0.17.0"
+  },
+  "devDependencies": {
+    "react-native-pull-to-refresh": "0.0.1"
   }
 }
