@@ -1,4 +1,68 @@
 # react-native-pull-to-refresh
-The pull-to-refresh ScrollView component for React Native
+> The pull-to-refresh ScrollView component for React Native
 
-WIP
+[![npm](https://img.shields.io/npm/v/react-native-pull-to-refresh.svg)]()[![npm](https://img.shields.io/npm/l/react-native-pull-to-refresh.svg)]()
+
+[![NPM](https://nodei.co/npm/react-native-pull-to-refresh.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-pull-to-refresh/)
+
+Demo
+---
+![demo](./doc/demo.gif)
+
+
+# Installation
+
+in Cli
+
+```
+npm i react-native-pull-to-refresh --save
+```
+
+in JavaScript
+
+```
+import PTRView from 'react-native-pull-to-refresh';
+```
+
+# Usage
+
+```
+var PullToRefreshProject = React.createClass({
+  _refresh: function() {
+    return new Promise((resolve) => {
+      setTimeout(()=>{resolve()}, 2000)
+    });
+  },
+  render: function() {
+    return (
+      <PTRView onRefresh={this._refresh} >
+        <View style={styles.container}>
+          <Text style={styles.welcome}>
+            Let's Pull!
+          </Text>
+        </View>
+      </PTRView>
+    );
+  },
+});
+```
+# Props
+
+## onRefresh
+The method of refresh. You have to return promise object.
+
+## offset(defalt:80)
+distance of pull to refresh
+
+## delay(defalt:0)
+delay time of refresh
+
+# Contributing
+Welcome :)
+
+
+# License
+MIT
+
+
+
