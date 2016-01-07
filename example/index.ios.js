@@ -32,7 +32,7 @@ var PullToRefreshProject = React.createClass({
         >
           <View style={styles.container}>
             <Text style={styles.welcome}>
-              Let's Pull!
+              Let’s Pull!
             </Text>
           </View>
         </PTRView>
