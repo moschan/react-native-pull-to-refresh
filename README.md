@@ -5,9 +5,11 @@
 
 [![NPM](https://nodei.co/npm/react-native-pull-to-refresh.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-pull-to-refresh/)
 
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
 Demo
 ---
-![demo](./doc/demo.gif)
+![demo](./doc/arrow_update_demo.gif)
 
 
 # Installation
@@ -63,6 +65,4 @@ Welcome :)
 
 # License
 MIT
-
-
 
