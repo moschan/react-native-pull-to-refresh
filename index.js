@@ -1,3 +1,3 @@
-var PTRView = require('./lib/PullToRefreshViewiOS')
-
+import PTRView from './lib/PullToRefreshViewiOS.js'
 module.exports = PTRView
+
