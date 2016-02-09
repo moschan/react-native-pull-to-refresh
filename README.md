@@ -71,5 +71,3 @@ Welcome :)
 
 # License
 MIT
-
-jj
