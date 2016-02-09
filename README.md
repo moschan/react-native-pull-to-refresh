@@ -1,16 +1,17 @@
-# react-native-pull-to-refresh
-> The pull-to-refresh ScrollView component for React Native
+# react-native-pull-to-refresh (iOS/Android)
+> The pull-to-refresh view component for React Native
 
 [![npm](https://img.shields.io/npm/v/react-native-pull-to-refresh.svg)]()[![npm](https://img.shields.io/npm/l/react-native-pull-to-refresh.svg)]()
 
+
 [![NPM](https://nodei.co/npm/react-native-pull-to-refresh.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-pull-to-refresh/)
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard) [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 
 Demo
 ---
 ![demo](./doc/arrow_update_demo.gif)
-
+![demo](./doc/android_demo.gif)
 
 # Installation
 
@@ -53,12 +54,17 @@ var PullToRefreshProject = React.createClass({
 ## onRefresh
 The method of refresh. You have to return promise object.
 
-## offset(defalt:80)
-distance of pull to refresh
-
-## delay(defalt:0)
+## delay(defalt:`0`)
 delay time of refresh
 
+## offset(defalt:`80`) `iOS`
+distance of pull to refresh
+
+## colors(defalt:`#000`) `Android`
+The background color of the refresh indicator
+
+## progressBackgroundColor(defalt:`transparent`) `Android`
+The background color of the refresh indicator
 # Contributing
 Welcome :)
 
@@ -66,3 +72,4 @@ Welcome :)
 # License
 MIT
 
+jj
