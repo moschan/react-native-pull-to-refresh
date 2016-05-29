@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-// var PTRView = require('./index.js')
+// import PTRView from './index.js'
 import PTRView from 'react-native-pull-to-refresh'
 
 class PullToRefreshExample extends Component {
