@@ -12,8 +12,8 @@ import {
   View
 } from 'react-native';
 
-var PTRView = require('./index.js')
-// var PTRView = require('react-native-pull-to-refresh')
+// var PTRView = require('./index.js')
+import PTRView from 'react-native-pull-to-refresh'
 
 class PullToRefreshExample extends Component {
   _refresh () {
