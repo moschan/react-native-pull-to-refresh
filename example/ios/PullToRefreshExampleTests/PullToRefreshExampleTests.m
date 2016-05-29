@@ -13,14 +13,14 @@
 #import "RCTLog.h"
 #import "RCTRootView.h"
 
-#define TIMEOUT_SECONDS 240
+#define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React Native!"
 
-@interface PullToRefreshProjectTests : XCTestCase
+@interface PullToRefreshExampleTests : XCTestCase
 
 @end
 
-@implementation PullToRefreshProjectTests
+@implementation PullToRefreshExampleTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

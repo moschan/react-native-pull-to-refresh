@@ -1,27 +1,27 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
+ * @flow
  */
-'use strict';
 
-// var PTRView = require('./index.js')
-var PTRView = require('react-native-pull-to-refresh')
-
-var React = require('react-native');
-var {
+import React, { Component } from 'react';
+import {
   AppRegistry,
   StyleSheet,
   Text,
-  View,
-} = React;
+  View
+} from 'react-native';
 
-var PullToRefreshProject = React.createClass({
-  _refresh: function() {
+var PTRView = require('./index.js')
+// var PTRView = require('react-native-pull-to-refresh')
+
+class PullToRefreshExample extends Component {
+  _refresh () {
     return new Promise((resolve) => {
       setTimeout(()=>{resolve()}, 2000)
-    });
-  },
-  render: function() {
+    })
+  }
+  render() {
     return (
       <View style={{flex:1}}>
         <View style={styles.header}>
@@ -38,12 +38,11 @@ var PullToRefreshProject = React.createClass({
           </View>
         </PTRView>
       </View>
-
     );
-  },
-});
+  }
+}
 
-var styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -74,4 +73,4 @@ var styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('PullToRefreshProject', () => PullToRefreshProject);
+AppRegistry.registerComponent('PullToRefreshExample', () => PullToRefreshExample);
