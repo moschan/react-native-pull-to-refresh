@@ -21,15 +21,14 @@ in Cli
 npm i react-native-pull-to-refresh --save
 ```
 
-in JavaScript
+
+# Getting started
+
 
 ```
 import PTRView from 'react-native-pull-to-refresh';
-```
 
-# Usage
 
-```
 var PullToRefreshProject = React.createClass({
   _refresh: function() {
     return new Promise((resolve) => {
@@ -65,9 +64,9 @@ The background color of the refresh indicator
 
 ## progressBackgroundColor(defalt:`transparent`) `Android`
 The background color of the refresh indicator
+
 # Contributing
 Welcome :)
-
 
 # License
 MIT
