@@ -10,13 +10,11 @@
 
 Demo
 ---
-![demo](./doc/arrow_update_demo.gif)
-![demo](./doc/android_demo.gif)
+iOS|Android
+----|----
+![demo](./doc/arrow_update_demo.gif)| ![demo](./doc/android_demo.gif)
 
 # Installation
-
-in Cli
-
 ```
 npm i react-native-pull-to-refresh --save
 ```
