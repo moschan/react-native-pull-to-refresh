@@ -66,5 +66,13 @@ The background color of the refresh indicator
 # Contributing
 Welcome :)
 
+You can use following command in `example` dir:
+
+```
+npm run sync
+```
+
+During running this command, when you change source to implement/fix something, these changes will sync to `example/node_modules/react-native-pull-to-refresh/`. You can check your change using example project easily.
+
 # License
 MIT
