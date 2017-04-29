@@ -6,6 +6,7 @@
   "files": [
     "README.md",
     "lib",
+    "index.js",
     "package.json"
   ],
   "scripts": {
