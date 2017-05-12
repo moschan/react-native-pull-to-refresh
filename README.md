@@ -23,7 +23,7 @@ npm i react-native-pull-to-refresh --save
 # Getting started
 
 
-```
+```jsx
 import PTRView from 'react-native-pull-to-refresh';
 
 
