@@ -12,7 +12,7 @@ Demo
 ---
 iOS|Android
 ----|----
-![demo](./doc/arrow_update_demo.gif)| ![demo](./doc/android_demo.gif)
+![demo](./doc/demo_ios.gif)| ![demo](./doc/demo_android.gif)
 
 # Installation
 ```
