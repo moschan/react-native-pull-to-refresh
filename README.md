@@ -51,16 +51,16 @@ var PullToRefreshProject = React.createClass({
 ## onRefresh
 The method of refresh. You have to return promise object.
 
-## delay(defalt:`0`)
+## delay(default:`0`)
 delay time of refresh. If you set this this prop, refresh function will be delayed
 
-## offset(defalt:`80`) `iOS`
+## offset(default:`80`) `iOS`
 distance of pull to refresh
 
-## colors(defalt:`#000`) `Android`
+## colors(default:`#000`) `Android`
 The background color of the refresh indicator
 
-## progressBackgroundColor(defalt:`transparent`) `Android`
+## progressBackgroundColor(default:`transparent`) `Android`
 The background color of the refresh indicator
 
 # Contributing
